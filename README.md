@@ -8,11 +8,11 @@ Connect Platform - Project 2
 
 \- Adam Broussard - 0-oAdam
 
-\- Roy Flores - \[GitHub Username]
+\- Roy Flores - superchadgamer
 
-\- Naeem Islam - \[GitHub Username]
+\- Naeem Islam - naeemislm
 
-\- Aiden Romero - \[GitHub Username]
+\- Aiden Romero - AidenRomero2K5
 
 \## Project Description
 
@@ -42,23 +42,23 @@ Connect Platform - Project 2
 
 \### Adam Broussard
 
-\- 
+\-
 
-\- 
+\-
 
-\- 
+\-
 
 \### Roy Flores
 
-\- 
+\-
 
-\- 
+\-
 
 \-
 
 \### Naeem Islam
 
-\- 
+\-
 
 \-
 
@@ -66,7 +66,7 @@ Connect Platform - Project 2
 
 \### Aiden Romero
 
-\- 
+\-
 
 \-
 
