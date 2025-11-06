@@ -1,138 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>CareerAim</title>
-    <link rel="stylesheet" href="styles.css" />
-    <style>
-      .search {
-        padding: 0.5rem 1rem;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        font-size: 1rem;
-      }
-      .nav-actions{
-        display: flex;
-        gap: 1rem;
-        align-items: center;
-        padding-left: 50px;
-      }
-      .dashboard-main {
-        min-height: calc(100vh - 200px);
-        padding: 2rem 0;
-        background-color: var(--background-alt);
-      }
-      .logos{
-        width: 40px;
-        height: 40px;
-        border-radius: 5px;
-        margin-bottom: 10px;
-      }
-    </style>
-  </head>
+<head>
+  <title>CareerAim</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
+<body>
 
-  <body>
-    <nav class="navbar">
-      <div class="container flex-between">
-        <div class="logo">
-          <h1>CareerAim</h1>
-        </div>
-
-        <div class="nav-links">
-          <a href="#">Learn</a>
-          <a href="#">Compete</a>
-          <a href="#">Mentors</a>
-        </div>
-
-        <div class="nav-actions flex">
-          <input class="search" placeholder="Search Opportunities">
-          <a href="#" class="btn-login">Inbox</a>
-          <img src="logos/user.png" style="width: 40px;">
-        </div>
+  <nav class="navbar" style="min-width: 750px;"">
+    <div class="container flex-between">
+      <div class="logo">
+        <a href="#"><h1 style="margin-right: 50px;">CareerAim</h1></a>
       </div>
-    </nav>
 
-    <div class="dashboard-main">
-      <div class="container dashboard-grid">
+      <div class="nav-links" style="min-width: 450px;">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#students">For Students</a>
+        <a href="#companies">For Companies</a>
+      </div>
+      <a href="student-dashboard.html" class="btn-login">Login</a>
+    </div>
+  </nav>
 
-        <div class="active-projects" style="min-width: 400px;" >
-          <h3>⭐Recommended</h3><br>
-          <div class="project-card" >
-            <div style="display: flex;">
-              <div style="padding-right: 10px;">
-                <img class="logos" src="logos/dell.png">
-              </div>
-              <div>
-                <h3>Dell Technologies</h3>
-                <p class="company">Technical Internship</p>
-              </div>
-            </div>
-            <ul class="benefits-list">
-              <li>Learn Required Skills</li>
-              <li>Get Mentorship</li>
-              <li>Interview Preparation</li>
-            </ul>
-          </div>
+  <section class="hero" id="hero" style="min-width: 750px;">
+    <div class="container text-center">
+      <h2 style="margin-bottom: 0%;">Bridging Students and Companies</h2>
+        <h2>for Maximizing Impact</h2>
+      <p class="hero-description">
+        CareerAim connects aspiring students with leading companies to work on real-world challenges,
+        gain mentorship, build practical experience and land dream jobs.
+      </p>
+      <div>
+        <a href="student-dashboard.html" class="btn btn-primary">Get Started as Student</a>
+        <a href="company-dashboard.html" class="btn btn-secondary">Post a Job</a>
+      </div>
+    </div>
+  </section>
 
-          <div class="project-card">
-            <div style="display: flex;">
-              <div style="padding-right: 10px;">
-                <img class="logos" src="logos/amazon.png">
-              </div>
-              <div>
-                <h3>Amazon</h3>
-                <p class="company">Junior Developer</p>
-              </div>
-            </div>
-            <ul class="benefits-list">
-              <li>Learn Required Skills</li>
-              <li>Read Success Stories</li>
-            </ul>
-          </div>
-          <p class="text-center text-light mt-1">Scroll down ↓</p>
+  <section id="about" style="min-width: 750px;">
+    <div class="container">
+      <br><h2>Why Choose CareerAim?</h2>
+      <div>
+        <div id="students">
+          <h3 style="margin-top: 20px; margin-bottom: 10px;">For Students</h3>
+          <ul class="benefits-list">
+            <li><strong>Gain Real Experience</strong> by working with real companies.</li>
+            <li><strong>Build Your Portfolio</strong> with verified, hands-on projects.</li>
+            <li><strong>Get Mentored</strong> by professionals from the industry.</li>
+            <li><strong>Enhance Your Employability</strong> with practical skills.</li>
+          </ul>
         </div>
 
-
-        <div class="profile-summary" style="min-width: 400px;">
-          <h3>📁 Applied Jobs</h3><br>
-          <div class="project-card">
-            <div style="display: flex;">
-              <div style="padding-right: 10px;">
-                <img class="logos" src="logos/google.png">
-              </div>
-              <div>
-                <h3>Google</h3>
-                <p class="company">Cloud Computing Engineer</p>
-              </div>
-            </div>
-            <ul class="benefits-list">
-              <li>Resume Improvement</li>
-              <li>Get Mentorship</li>
-              <li>Interview Preparation</li>
-            </ul>
-            <p style="padding-top: 16px;">♦️ 3 Possible Improvements</p>
-          </div>
-
-          <div class="project-card">
-            <div style="display: flex;">
-              <div style="padding-right: 10px;">
-                <img class="logos" src="logos/facebook.png">
-              </div>
-              <div>
-                <h4>Facebook</h4>
-                <p class="company">Technical Internship</p>
-              </div>
-            </div>
-            <ul class="benefits-list">
-              <li>Practice Interview Question</li>
-              <li>Get Projects Review</li>
-            </ul>
-            <p style="padding-top: 16px;">♦️ 5 Possible Improvements</p>
-          </div>
-          <p class="text-center text-light mt-1">Scroll down ↓</p>
+        <div id="companies">
+          <h3 style="margin-top: 20px; margin-bottom: 10px;">For Companies</h3>
+          <ul class="benefits-list">
+            <li><strong>Access Young Talent</strong> full of creativity and energy.</li>
+            <li><strong>Collaborate Efficiently</strong> on projects that matter.</li>
+            <li><strong>Mentor Future Professionals</strong> while gaining new insights.</li>
+            <li><strong>Build Long-Term Relationships</strong> with future hires.</li>
+          </ul>
         </div>
       </div>
     </div>
+  </section>
 
-  </body>
+  <section class="container" id="how-it-works" style="min-width: 750px;">
+    <div>
+      <h2 style="margin-top: 40px;">How It Works</h2>
+      <div>
+        <div>
+          <h4 style="margin-top: 20px;">1 Create an Account</h4>
+          <p>Sign up as a student or company to get started on the platform.</p>
+        </div>
+
+        <div>
+          <h4>2 Discover Opportunities</h4>
+          <p>Students browse active projects while companies post new challenges.</p>
+        </div>
+
+        <div>
+          <h4>3 Learn Skills</h4>
+          <p>Learn new skills of your interest and trending jobs.</p>
+        </div>
+
+        <div>
+          <h4>4 Collaborate</h4>
+          <p>Teams connect, learn, and deliver impactful results together.</p>
+        </div>
+
+        <div>
+          <h4>4 Showcase Achievements</h4>
+          <p>Students grow their portfolios while companies discover great talent.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="hero" style="text-align:center; margin-top: 80px; padding-top: 50px; padding-bottom: 40px; min-width: 750px;">
+    <div>
+      <div>
+        <a  href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+      </div>
+      <p>
+        © 2025 CareerAim. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+</body>
 </html>
