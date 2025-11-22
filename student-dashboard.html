@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 
+<body>
 
   <body>
     <nav class="navbar" style="min-width: 750px;">
@@ -28,52 +29,51 @@
           </a>
         </div>
       </div>
-    </nav>
+      <a class="btn-login">Logout</a>
+    </div>
+  </nav>
 
-    <div class="dashboard-main">
-      <div class="container dashboard-grid">
+  <!-- User Information -->
+  <div class="dashboard-main">
+    <div class="container student-layout">
+      <div class="project-card profile-section">
+        <h3>👤 My Profile</h3>
+        <label>Full Name</label>
+        <input type="text" value="Md. Naeem Islam" />
+        <label>Education</label>
+        <input type="text" value="BSc. in Computer Science" />
+        <label>Skills</label>
+        <input type="text" value="Python, C++, Machine Learning" />
+        <label>Portfolio Link</label>
+        <input type="text" placeholder="https://www.naeemislam.com" />
+        <label>About Me</label>
+        <textarea rows="3">Passionate about AI and real-world problem solving.</textarea>
+        <button class="btn-login">Save Changes</button>
+      </div>
 
-        <div class="active-projects" style="min-width: 400px;" >
-          <h3>⭐Recommended</h3><br>
-          <div class="project-card" >
-            <div style="display: flex;">
-              <div style="padding-right: 10px;">
-                <img class="images" src="images/dell.png">
-              </div>
-              <div>
-                <h3>Dell Technologies</h3>
-                <p class="company">Technical Internship</p>
-              </div>
-            </div>
-            <ul class="benefits-list">
-              <li>Learn Required Skills</li>
-              <li>Get Mentorship</li>
-              <li>Interview Preparation</li>
-            </ul>
-          </div>
+      <!-- Improvements -->
+      <div class="project-card profile-section">
+        <h3>📈 Profile Suggestions</h3><br>
+        <ul class="benefits-list">
+          <li>Add a relevant project on Machine Learning</li>
+          <li>Improve resume formatting</li>
+          <li>Learn AWS Deployment Basics</li>
+          <li>Complete courses in-progress</li>
+          <li>Check available mentors</li>
+          <li>Submit required documents</li>
+          <li>Complete your profile</li>
+          <li>Read Success Stories</li>
+        </ul><br>
+        <button class="btn-login" style="margin-top: 27px;">Complete Improvements</button>
+      </div>
 
-          <div class="project-card">
-            <div style="display: flex;">
-              <div style="padding-right: 10px;">
-                <img class="images" src="images/amazon.png">
-              </div>
-              <div>
-                <h3>Amazon</h3>
-                <p class="company">Junior Developer</p>
-              </div>
-            </div>
-            <ul class="benefits-list">
-              <li>Learn Required Skills</li>
-              <li>Read Success Stories</li>
-            </ul>
-          </div>
-          <p class="text-center text-light mt-1">Scroll down ↓</p>
-        </div>
+    </div>
 
-
-        <div class="profile-summary" style="min-width: 400px;">
+    <div class="project-card container">
+       <div class="profile-summary" style="min-width: 400px;">
           <h3>📁 Applied Jobs</h3><br>
-          <div class="project-card">
+          <div style="display:  flex";>
+            <div class="project-card" style="flex: 1; margin: 10px;">
             <div style="display: flex;">
               <div style="padding-right: 10px;">
                 <img class="images" src="images/google.png">
@@ -87,11 +87,11 @@
               <li>Resume Improvement</li>
               <li>Get Mentorship</li>
               <li>Interview Preparation</li>
+              <li>3 Possible Improvements</li>
             </ul>
-            <p style="padding-top: 16px;">♦️ 3 Possible Improvements</p>
           </div>
 
-          <div class="project-card">
+          <div class="project-card" style="flex: 1; margin: 10px;">
             <div style="display: flex;">
               <div style="padding-right: 10px;">
                 <img class="images" src="images/facebook.png">
@@ -104,32 +104,36 @@
             <ul class="benefits-list">
               <li>Practice Interview Question</li>
               <li>Get Projects Review</li>
+              <li>Read Success Stories</li>
+              <li>5 Possible Improvements</li>
             </ul>
-            <p style="padding-top: 16px;">♦️ 5 Possible Improvements</p>
           </div>
-          <p class="text-center text-light mt-1">Scroll down ↓</p>
-        </div>
+
+          </div>
+          
       </div>
-    </div>
-<footer class="hero" style="text-align:center; margin-top: 80px; padding-top: 50px; padding-bottom: 40px; min-width: 750px;">
+
+    
+  </div>
+
+  
+
+  <footer class="hero nanfooter">
     <div>
       <div>
-        <a  href="#">Terms</a>
-        <a href="#">Privacy</a>
-        <a href="#">Contact</a>
-        <img src="images/linkedin.png" style="width: 15px; border-radius: 5px; display: inline;">
-        <a href="#">LinkedIn</a>
-        <img src="images/twitter.png" style="width: 15px; border-radius: 5px; display: inline;">
-        <a href="#">Twitter</a>
-        <img src="images/meta.png" style="width: 15px; border-radius: 5px; display: inline;">
-        <a href="#">Facebook</a>
+        <a>Terms</a>
+        <a>Privacy</a>
+        <a></a>Contact</a>
+        <img class="nanlink" src="images/linkedin.png">
+        <a>LinkedIn</a>
+        <img class="nanlink" src="images/twitter.png">
+        <a>Twitter</a>
+        <img class="nanlink" src="images/meta.png">
+        <a>Facebook</a>
       </div>
-      <p>
-        © 2025 CareerAim. All rights reserved.
-      </p>
+      <p>© 2025 CareerAim. All rights reserved.</p>
     </div>
   </footer>
 
-
-  </body>
+</body>
 </html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Company Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <nav class="navbar nannav">
+    <div class="container">
+      <div class="logo nannavico">
+        <img class="nannavicoimg" src="images/logo.png">
+        <a href="index.html"><h1 class="nannavicotxt">CareerAim</h1></a>
+      </div>
+      <div class="nav-links nannavlink">
+        <a href="index.html#hero">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="student-dashboard.html">For Students</a>
+        <a href="company-dashboard.html" aria-current="page">For Companies</a>
+      </div>
+      <a class="btn-login">Logout</a>
+    </div>
+  </nav>
+
+  <section class="hero" style="min-width: 750px;">
+    <div class="container text-center">
+      <h2>Company Dashboard</h2>
+      <p class="hero-description">
+        Manage your projects, connect with student talent, and track applications.
+      </p>
+      <a href="#post-project" class="btn btn-secondary">Post New Project</a>
+    </div>
+  </section>
+
+  <section class="container" style="padding: 2.5rem 0; min-width: 750px; padding-bottom: 0;">
+    <div class="dashboard-grid">
+
+      <!-- Project List -->
+      <div class="active-projects" style="padding-bottom: 0;">
+        <h3 style="margin-bottom: 1rem;">Active Projects</h3>
+        <div class="project-card">
+          <div class="project-header">
+            <h4>AI-powered Resume Screening Tool</h4>
+            <p class="company-name">Posted: 5 days ago</p>
+          </div>
+          <p>Looking for students to build an AI model to analyze and rank job applicants automatically.</p>
+          <div style="display: flex; justify-content: space-between; margin-top: 1rem;">
+            <a class="btn btn-small btn-outline">View Applicants</a>
+            <a class="btn btn-small btn-secondary">Edit</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h4>Marketing Strategy Dashboard</h4>
+            <p class="company-name">Posted: 12 days ago</p>
+          </div>
+          <p>Help us create a marketing analytics platform with live performance metrics.</p>
+          <div style="display: flex; justify-content: space-between; margin-top: 1rem;">
+            <a class="btn btn-small btn-outline">View Applicants</a>
+            <a class="btn btn-small btn-secondary">Edit</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Company Profile -->
+      <div class="profile-summary">
+        <h3 style="margin-bottom: 1rem;">Profile Summary</h3>
+        <p><strong>Company Name:</strong> Tech Innovators Inc.</p>
+        <p><strong>Active Projects:</strong> 2</p>
+        <p><strong>Total Applicants:</strong> 47</p>
+        <p><strong>Member Since:</strong> 2025</p>
+        <a class="btn btn-primary btn-full" style="margin-top: 1.5rem;">Edit Company Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="post-project" style="padding-top: 0 ; padding-bottom: 2rem; min-width: 750px;">
+    <hr style="margin: 2rem 0; border: 1px solid var(--border-color);" />
+    <h3 style="margin-bottom: 1rem;">Post a New Project</h3>
+    <form style="display: flex; flex-direction: column; gap: 1rem; max-width: 600px;">
+      <input type="text" placeholder="Project Title" style="padding: 0.75rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);" />
+      <textarea placeholder="Project Description" rows="4" style="padding: 0.75rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);"></textarea>
+      <input type="text" placeholder="Required Skills" style="padding: 0.75rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);" />
+      <button type="submit" class="btn btn-secondary">Submit Project</button>
+    </form>
+  </section>
+
+  <footer class="hero nanfooter">
+    <div>
+      <div>
+        <a>Terms</a>
+        <a>Privacy</a>
+        <a></a>Contact</a>
+        <img class="nanlink" src="images/linkedin.png">
+        <a>LinkedIn</a>
+        <img class="nanlink" src="images/twitter.png">
+        <a>Twitter</a>
+        <img class="nanlink" src="images/meta.png">
+        <a>Facebook</a>
+      </div>
+      <p>© 2025 CareerAim. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
