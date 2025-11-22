@@ -307,3 +307,31 @@ button {
   color: var(--success-color);
   font-weight: bold;
 }
+.search {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.nav-actions{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-left: 50px;
+}
+.dashboard-main {
+  min-height: calc(100vh - 200px);
+  padding: 2rem 0;
+  background-color: var(--background-alt);
+}
+.images{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.edit-profile {
+  width: 40px;
+  height: 20px;
+  
+}
