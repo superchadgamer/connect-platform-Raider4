@@ -307,3 +307,33 @@ button {
   color: var(--success-color);
   font-weight: bold;
 }
+.nanfooter{
+  text-align:center; 
+  margin-top: 80px; 
+  padding-top: 50px; 
+  padding-bottom: 40px; 
+  min-width: 750px;
+}
+.nanlink{
+  width: 15px; 
+  border-radius: 5px; 
+  display: inline;
+}
+.nannav{
+  min-width: 750px;
+}
+.nannavico{
+  display: flex; 
+  align-items: center;
+  margin-right: 70px;
+}
+.nannavicoimg{
+  width: 40px; 
+  margin-right: 10px;
+}
+.nannavicotxt{
+  margin-right: 50px;
+}
+.nannavlink{
+  min-width: 450px;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CareerAim-Student</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .search {
+        padding: 0.5rem 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+      .nav-actions{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        padding-left: 50px;
+      }
+      .dashboard-main {
+        min-height: calc(100vh - 200px);
+        padding: 2rem 0;
+        background-color: var(--background-alt);
+      }
+      .images{
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+
+  <body>
+    <nav class="navbar" style="min-width: 750px;"">
+    <div class="container flex-between">
+      <div class="logo" style="display: flex; align-items: center;">
+        <img style="width: 40px; margin-right: 10px;" src="images/logo.png">
+        <a href="#"><h1 style="margin-right: 50px;">CareerAim</h1></a>
+      </div>
+
+        <div class="nav-links">
+          <a href="student-learn.html">Learn</a>
+          <a href="#">Compete</a>
+          <a href="#">Mentors</a>
+        </div>
+
+        <div class="nav-actions flex">
+          <input class="search" placeholder="Search Opportunities">
+          <a href="#" class="btn-login">Inbox</a>
+          <img src="images/user.png" style="width: 40px;">
+        </div>
+      </div>
+    </nav>
+
+    <div class="dashboard-main">
+      <div class="container dashboard-grid">
+
+        <div class="active-projects" style="min-width: 400px;" >
+          <h3>⭐Recommended</h3><br>
+          <div class="project-card" >
+            <div style="display: flex;">
+              <div style="padding-right: 10px;">
+                <img class="images" src="images/dell.png">
+              </div>
+              <div>
+                <h3>Dell Technologies</h3>
+                <p class="company">Technical Internship</p>
+              </div>
+            </div>
+            <ul class="benefits-list">
+              <li>Learn Required Skills</li>
+              <li>Get Mentorship</li>
+              <li>Interview Preparation</li>
+            </ul>
+          </div>
+
+          <div class="project-card">
+            <div style="display: flex;">
+              <div style="padding-right: 10px;">
+                <img class="images" src="images/amazon.png">
+              </div>
+              <div>
+                <h3>Amazon</h3>
+                <p class="company">Junior Developer</p>
+              </div>
+            </div>
+            <ul class="benefits-list">
+              <li>Learn Required Skills</li>
+              <li>Read Success Stories</li>
+            </ul>
+          </div>
+          <p class="text-center text-light mt-1">Scroll down ↓</p>
+        </div>
+
+
+        <div class="profile-summary" style="min-width: 400px;">
+          <h3>📁 Applied Jobs</h3><br>
+          <div class="project-card">
+            <div style="display: flex;">
+              <div style="padding-right: 10px;">
+                <img class="images" src="images/google.png">
+              </div>
+              <div>
+                <h3>Google</h3>
+                <p class="company">Cloud Computing Engineer</p>
+              </div>
+            </div>
+            <ul class="benefits-list">
+              <li>Resume Improvement</li>
+              <li>Get Mentorship</li>
+              <li>Interview Preparation</li>
+            </ul>
+            <p style="padding-top: 16px;">♦️ 3 Possible Improvements</p>
+          </div>
+
+          <div class="project-card">
+            <div style="display: flex;">
+              <div style="padding-right: 10px;">
+                <img class="images" src="images/facebook.png">
+              </div>
+              <div>
+                <h4>Facebook</h4>
+                <p class="company">Technical Internship</p>
+              </div>
+            </div>
+            <ul class="benefits-list">
+              <li>Practice Interview Question</li>
+              <li>Get Projects Review</li>
+            </ul>
+            <p style="padding-top: 16px;">♦️ 5 Possible Improvements</p>
+          </div>
+          <p class="text-center text-light mt-1">Scroll down ↓</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="hero nanfooter">
+    <div>
+      <div>
+        <a>Terms</a>
+        <a>Privacy</a>
+        <a></a>Contact</a>
+        <img class="nanlink" src="images/linkedin.png">
+        <a>LinkedIn</a>
+        <img class="nanlink" src="images/twitter.png">
+        <a>Twitter</a>
+        <img class="nanlink" src="images/meta.png">
+        <a>Facebook</a>
+      </div>
+      <p>© 2025 CareerAim. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
