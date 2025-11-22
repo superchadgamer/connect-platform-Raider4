@@ -307,33 +307,31 @@ button {
   color: var(--success-color);
   font-weight: bold;
 }
-.nanfooter{
-  text-align:center; 
-  margin-top: 80px; 
-  padding-top: 50px; 
-  padding-bottom: 40px; 
-  min-width: 750px;
+.search {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
 }
-.nanlink{
-  width: 15px; 
-  border-radius: 5px; 
-  display: inline;
-}
-.nannav{
-  min-width: 750px;
-}
-.nannavico{
-  display: flex; 
+.nav-actions{
+  display: flex;
+  gap: 1rem;
   align-items: center;
-  margin-right: 70px;
+  padding-left: 50px;
 }
-.nannavicoimg{
-  width: 40px; 
-  margin-right: 10px;
+.dashboard-main {
+  min-height: calc(100vh - 200px);
+  padding: 2rem 0;
+  background-color: var(--background-alt);
 }
-.nannavicotxt{
-  margin-right: 50px;
+.images{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
-.nannavlink{
-  min-width: 450px;
+.edit-profile {
+  width: 40px;
+  height: 20px;
+  
 }
